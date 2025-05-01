@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userid": "john_nit",
+      "password": "john@nit",
+      "email": "john@gmail.com"
+    },
+    {
+      "id": "2",
+      "userid": "david",
+      "password": "david11",
+      "email": "david@outlook.com"
+    },
+    {
+      "id": "71e7",
+      "userid": "sanjay_nit",
+      "password": "sanjay11",
+      "email": "sanjay@gmail.com"
+    },
+    {
+      "id": "c215",
+      "userid": "",
+      "password": "",
+      "email": ""
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "title": "Samson Birthday",
+      "date": "2025-03-22",
+      "userid": "john_nit"
+    },
+    {
+      "id": "2",
+      "title": "",
+      "date": "",
+      "userid": ""
+    },
+    {
+      "id": "13be",
+      "title": "birthday party",
+      "date": "2025-05-02",
+      "userid": "john_nit"
+    },
+    {
+      "id": "7dfe",
+      "title": "office meeting at bnlr",
+      "date": "2025-05-02",
+      "userid": "david"
+    },
+    {
+      "id": "9b4c",
+      "title": "pooja bdy",
+      "date": "2025-05-08",
+      "userid": "david"
+    }
+  ]
+}

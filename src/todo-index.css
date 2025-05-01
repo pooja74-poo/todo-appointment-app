@@ -1,0 +1,64 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+}
+input:focus, button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+header {
+  backdrop-filter: blur(4px);
+  transition: transform 0.2s ease;
+}
+header:hover {
+  transform: scale(1.01);
+}
+
+.dashboard-bg {
+  background: linear-gradient(to right, #ffffff, #e0f2ff);
+  border-left: 6px solid #0d6efd;
+  border-right: 6px solid #0d6efd;
+  padding: 30px;
+}
+.card {
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+
+.bg-image {
+    
+    background-image: url("../src/assets/banner1.jpg");
+    position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+/* Add a dark overlay */
+.bg-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+    z-index: 1;
+  }
+  
+  /* Everything inside gets pushed above the dark layer */
+  .bg-image > * {
+    position: relative;
+    z-index: 2;
+  }
