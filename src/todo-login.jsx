@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaUser, FaLock } from "react-icons/fa";
 
 export function ToDoLogin() {
-  const [cookies, setCookie] = useCookies(["userid"]);
+  const [, setCookie] = useCookies(["userid"]);
   let navigate = useNavigate();
 
   const formik = useFormik({
